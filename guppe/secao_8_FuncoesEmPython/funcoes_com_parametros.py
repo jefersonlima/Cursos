@@ -117,8 +117,14 @@ def soma_impares(numeros):
         # return total # errado
     return total # certo
 
-lista = [1, 2, 3, 4, 5, 6, 7]
-tupla = (1, 2, 3, 4, 5, 6, 7)
+if __name__ == '__main__':
+    lista = [1, 2, 3, 4, 5, 6, 7]
+    print(lista)
+    tupla = (1, 2, 3, 4, 5, 6, 7)
+    print(tupla)
+else:
+    print(f'Local que está importando: {__name__}')
+    print('O Módulo funções com parametros foi importado')
 
 
 
