@@ -33,4 +33,7 @@ print(type(ret))
 #  funciona como o cursor quando estamos escrevendo.
 """
 
+#  Com a função read() podemos limitar a quantidade de caracteres a serem lidos no arquivo
+arquivo = open('texto.txt')
+print(arquivo.read(37))
 
