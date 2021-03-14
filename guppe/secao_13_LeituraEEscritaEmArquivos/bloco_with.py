@@ -8,7 +8,7 @@ O bloco with
 O block with é utilizado para criar um contexto de trabalho onde os recursos
 urilizados são fechados após o bloco with.
 
-arquivo = open('texto.txt')
+arquivo = open('t.txt')
 """
 
 #  O block with - Forma Pythônica de manipular arquivos

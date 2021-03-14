@@ -31,7 +31,7 @@ arquivo.close()
 with open('geek.txt', 'w') as arquivo:
     arquivo.write('Geek ' * 100)
 
-with open('frutas.txt', 'w') as arquivo:
+with open('cesta1.txt', 'w') as arquivo:
     while True:
         fruta = input('Informe uma fruta ou digite sair: ')
         if fruta != 'sair':

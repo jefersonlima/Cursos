@@ -24,7 +24,7 @@ except (FileExistsError, SyntaxError):
     print('Arquivo já existe!')
 
 #  Exemplo a
-with open('frutas.txt', mode='a', encoding='UTF-8')as arquivo:
+with open('cesta1.txt', mode='a', encoding='UTF-8')as arquivo:
     while True:
         fruta = input('Informe uma fruta ou sair: ')
         if fruta != 'sair':

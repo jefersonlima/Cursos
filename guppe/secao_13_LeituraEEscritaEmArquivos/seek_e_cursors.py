@@ -3,7 +3,7 @@ Seek e Cursors
 
 seek() -> É utilizada para movimentar o cursor pelo arquivo.
 
-arquivo = open('texto.txt')
+arquivo = open('t.txt')
 
 print(arquivo.read())
 
@@ -18,7 +18,7 @@ print(arquivo.read())
 arquivo.seek(22)
 print(arquivo.read())
 
-arquivo = open('texto.txt')
+arquivo = open('t.txt')
 
 #  readline() -> função que lê o arquivo linha a linha
 
@@ -29,7 +29,7 @@ print(ret)
 
 print(ret.split(' '))
 
-arquivo = open('texto.txt')
+arquivo = open('t.txt')
 
 #  readlines() -> retorna uma lista das linhas
 
