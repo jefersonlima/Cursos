@@ -3,3 +3,6 @@ uva
 melancia
 banana
 goiaba
+caju
+abacate
+pera
