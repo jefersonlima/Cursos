@@ -59,7 +59,7 @@ arquivo.close()
 print(arquivo.closed) #  Verifica se o arquivo está aberto ou fechado
 
 #  OBS: Se tentarmos manipular o arquivo após seu fechamento, termos um ValueError
-print(arquivo.read())
+# print(arquivo.read())
 
 
 
