@@ -39,6 +39,7 @@ list_tempo = time.time() - list_inicio
 
 print(f'Generation Expression levou {gen_tempo}')
 print(f'List Comprehension levou {list_tempo}')
+
 """
 
 
