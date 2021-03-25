@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*- #  Configuração para não da problema nos comentário
 import unittest
 
-from atividades import comer, dormir
+from atividades import comer, dormir, eh_engracada
 
 class AtividadesTestes(unittest.TestCase):
     def test_comer_saudavel(self):
@@ -29,6 +29,10 @@ class AtividadesTestes(unittest.TestCase):
             dormir(10),
             'Ptz! Dormi muito! Estou atrasadoo para o trabalho!'
         )
+    def test_eh_engracada(self):
+        #  self.assertEqual(eh_engracada('Sérgio Malandro'), False)
+        self.assertFalse(eh_engracada('Sérgio Malandro'))
+        self.assertTrue(eh_engracada('Jim Carrey'), 'Jim Carrey deveria ser engraçado')
 
 if __name__ == '__main__':
     unittest.main()

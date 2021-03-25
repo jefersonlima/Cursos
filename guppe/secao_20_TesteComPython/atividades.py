@@ -13,3 +13,15 @@ def dormir(num_horas):
         return f'Ptz! Dormi muito! Estou atrasadoo para o trabalho!'
     else:
         return f'Continuo cansado após dormir por {num_horas} horas. :('
+
+"""
+def eh_engracada(pessoa):
+    if pessoa == 'Sérgio Malandro':
+        return False
+    return True
+"""
+def eh_engracada(pessoa):
+    comediantes = ['Jim Carrey', 'Bozo']
+    if pessoa in comediantes:
+        return True
+    return False
