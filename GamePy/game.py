@@ -3,6 +3,7 @@
 Estruturando Game
 
 Implementação Parte 1
+Implementação Parte 2
 """
 from models.calcular import Calcular
 
