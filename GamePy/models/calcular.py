@@ -38,7 +38,7 @@ class Calcular:
              return randint(0, 100)
          elif self.dificuldade == 3:
              return randint(0, 1000)
-         elif self.dificuldade == 0:
+         elif self.dificuldade == 4:
              return randint(0, 100000)
 
     @property
@@ -71,7 +71,7 @@ class Calcular:
         return certo
 
     def mostrar_operacao(self: object) -> None:
-        print(f'{self.valor1} {self._op_simbolo} {self.valor2}')
+        print(f'{self.valor1} {self._op_simbolo} {self.valor2} = ?')
 
     def __str__(self: object) -> str:
         op: str = ''

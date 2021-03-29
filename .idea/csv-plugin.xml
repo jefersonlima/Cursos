@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\MercadoPy\models\produto.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\guppe\secao_18_ManipulandoArquivosCSV_JSON\conhecendo_pickle.py">
           <value>
             <Attribute>

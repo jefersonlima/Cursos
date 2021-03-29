@@ -24,6 +24,9 @@ def jogar(pontos: int) -> None:
     if calc.checar_resultado(resultado):
         pontos += 1
         print(f'Você tem {pontos} ponto(s).')
+    else:
+        pontos -= 1
+        print(f'Você Perdeu {pontos} ponto(s).')
 
     continuar: int = int(input('Deseja continuar no jogo? [1 - sim, 0 - não] '))
 
