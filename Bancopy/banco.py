@@ -4,6 +4,7 @@ Estruturando Projeto Banco
 Finalizando Estrutura do Projeto Banco
 Implementação parte 1 projeto Banco
 Implementação parte 2 projeto Banco
+Executando e Corrigindo Bugs Projeto Banco
 """
 from time import sleep
 from typing import List
@@ -27,7 +28,7 @@ def menu() -> None:
     print('2 - Efetuar Saque')
     print('3 - Efetuar Depósito')
     print('4 - Efetuar transferência')
-    print('5 - Sistar Contas')
+    print('5 - Listar Contas')
     print('6 - Sair do Sistema')
 
     opcao: int = int(input())
@@ -61,7 +62,7 @@ def criar_conta() -> None:
 
     cliente: Cliente = Cliente(nome, email, cpf, data_nascimento)
 
-    conta: Conta(cliente)
+    conta: Conta = Conta(cliente)
 
     contas.append(conta)
     print('Conta criada com sucesso.')
@@ -87,12 +88,12 @@ def efetuar_saque() -> None:
 
 def efetuar_deposito() -> None:
     if len(contas) > 0:
-        numero: int = int(input('Informe o valor do depósito: '))
+        numero: int = int(input('Informe o numero da conta do depósito: '))
         conta: Conta = buscar_conta_por_numero(numero)
 
         if conta:
             valor: float = float(input('Informe o valor do depósito: '))
-            conta.depositar()
+            conta.depositar(valor)
         else:
             print(f'Não foi encontrada uma conta com o número {numero}')
     else:
