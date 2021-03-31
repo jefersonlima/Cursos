@@ -3,6 +3,7 @@
 Estruturando Projeto Banco
 Finalizando Estrutura do Projeto Banco
 Implementação parte 1 projeto Banco
+Implementação parte 2 projeto Banco
 """
 from time import sleep
 from typing import List
